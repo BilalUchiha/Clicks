@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>assets/clicks.ico</ApplicationIcon>
+    <Version>1.4.1</Version>
+    <Product>Clicks</Product>
+    <Description>Offline keyboard and mouse sound feedback for Windows</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="assets/gunshot.mp3" LogicalName="Clicks.Gunshot.mp3" />
+    <PackageReference Include="NAudio" Version="2.2.1" />
+  </ItemGroup>
+
+</Project>

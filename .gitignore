@@ -1,0 +1,9 @@
+src/bin/
+src/obj/
+src/*.csproj.user
+app/*.pdb
+sound-sources/
+verification/
+reference.html
+src/assets/sounds/
+tools/prepare_sounds.py
